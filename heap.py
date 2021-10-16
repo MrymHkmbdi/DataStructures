@@ -42,19 +42,3 @@ class MaxHeap:
     def print_heap(self):
         print(self.heap)
 
-
-if __name__ == "__main__":
-    print('The minHeap is ')
-    max_heap = MaxHeap()
-    max_heap.insert(5)
-    max_heap.insert(3)
-    max_heap.insert(17)
-    max_heap.insert(10)
-    max_heap.insert(84)
-    max_heap.insert(19)
-    max_heap.insert(6)
-    max_heap.insert(22)
-    max_heap.insert(9)
-    ans = max_heap.delete_max()
-    max_heap.print_heap()
-    print('max value is {}'.format(max_heap.heap[0]))
